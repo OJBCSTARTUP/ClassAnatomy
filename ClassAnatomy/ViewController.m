@@ -16,8 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"Name %@",self.name);
+    
+    self.name = @"Sothea";
+    NSLog(@"Name: %@",self.name);
+    
+    _name = @"TestName";
+    NSLog(@"TestName:%@",self.name);
 }
+
+
+
 
 
 - (void)didReceiveMemoryWarning {
